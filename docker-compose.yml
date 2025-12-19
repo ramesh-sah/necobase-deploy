@@ -34,7 +34,7 @@ services:
     volumes:
       - ./storage:/app/nocobase/storage
     ports:
-      - '13000:80'
+      - '4000:80'
     # init: true
 
   # If using an existing database server, postgres service can be omitted
